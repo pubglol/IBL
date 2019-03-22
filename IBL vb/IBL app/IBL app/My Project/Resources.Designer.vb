@@ -60,6 +60,20 @@ Namespace My.Resources
             End Set
         End Property
         
+        Friend ReadOnly Property _1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property _11() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("11", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property IBL() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("IBL", resourceCulture)
@@ -182,6 +196,13 @@ Namespace My.Resources
         Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_5_03_16_PM() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 5.03.16 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_6_40_02_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 6.40.02 PM", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

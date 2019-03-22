@@ -22,7 +22,6 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button11 = New System.Windows.Forms.Button
         Me.Button12 = New System.Windows.Forms.Button
         Me.Button13 = New System.Windows.Forms.Button
         Me.Button14 = New System.Windows.Forms.Button
@@ -33,6 +32,7 @@ Partial Class Form3
         Me.Button19 = New System.Windows.Forms.Button
         Me.Button20 = New System.Windows.Forms.Button
         Me.Button21 = New System.Windows.Forms.Button
+        Me.Button11 = New System.Windows.Forms.Button
         Me.Button10 = New System.Windows.Forms.Button
         Me.Button9 = New System.Windows.Forms.Button
         Me.Button8 = New System.Windows.Forms.Button
@@ -44,17 +44,6 @@ Partial Class Form3
         Me.Button2 = New System.Windows.Forms.Button
         Me.Button1 = New System.Windows.Forms.Button
         Me.SuspendLayout()
-        '
-        'Button11
-        '
-        Me.Button11.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button11.Location = New System.Drawing.Point(790, 184)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(154, 154)
-        Me.Button11.TabIndex = 10
-        Me.Button11.Text = "Button11"
-        Me.Button11.UseVisualStyleBackColor = True
         '
         'Button12
         '
@@ -165,6 +154,17 @@ Partial Class Form3
         Me.Button21.TabIndex = 20
         Me.Button21.Text = "Back"
         Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Button11.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.WhatsApp_Image_2019_03_22_at_6_40_02_PM
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button11.Location = New System.Drawing.Point(790, 184)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(154, 154)
+        Me.Button11.TabIndex = 10
+        Me.Button11.UseVisualStyleBackColor = True
         '
         'Button10
         '
