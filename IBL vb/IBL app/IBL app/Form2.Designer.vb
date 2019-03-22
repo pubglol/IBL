@@ -28,29 +28,25 @@ Partial Class Form2
         '
         'btnMaths
         '
-        Me.btnMaths.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnMaths.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnMaths.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.btnMaths.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.MATH_IMAGE23
         Me.btnMaths.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnMaths.Location = New System.Drawing.Point(0, 319)
+        Me.btnMaths.Location = New System.Drawing.Point(144, 245)
         Me.btnMaths.Name = "btnMaths"
-        Me.btnMaths.Size = New System.Drawing.Size(870, 173)
+        Me.btnMaths.Size = New System.Drawing.Size(587, 192)
         Me.btnMaths.TabIndex = 0
         Me.btnMaths.Text = " "
         Me.btnMaths.UseVisualStyleBackColor = True
         '
         'btnPhysics
         '
-        Me.btnPhysics.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnPhysics.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.btnPhysics.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.physicsce_vector_21208553
         Me.btnPhysics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnPhysics.Location = New System.Drawing.Point(0, 0)
+        Me.btnPhysics.Location = New System.Drawing.Point(144, 32)
         Me.btnPhysics.Name = "btnPhysics"
-        Me.btnPhysics.Size = New System.Drawing.Size(870, 231)
+        Me.btnPhysics.Size = New System.Drawing.Size(587, 185)
         Me.btnPhysics.TabIndex = 0
         Me.btnPhysics.UseVisualStyleBackColor = True
         '

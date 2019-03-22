@@ -74,6 +74,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property measurements_uncertainties__5_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("measurements_uncertainties (5)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
         Friend ReadOnly Property physics_blue_horizontal_banner_science_vector_21208553() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("physics-blue-horizontal-banner-science-vector-21208553", resourceCulture)
@@ -91,6 +98,90 @@ Namespace My.Resources
         Friend ReadOnly Property physicsce_vector_21208553() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("physicsce-vector-21208553", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_2_51_05_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 2.51.05 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_2_52_37_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 2.52.37 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_2_55_54_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 2.55.54 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_3_18_00_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 3.18.00 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_03_30_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.03.30 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_05_49_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.05.49 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_16_11_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.16.11 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_43_23_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.43.23 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_44_15_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.44.15 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_4_48_50_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 4.48.50 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_5_02_33_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 5.02.33 PM", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property WhatsApp_Image_2019_03_22_at_5_03_16_PM() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("WhatsApp Image 2019-03-22 at 5.03.16 PM", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
